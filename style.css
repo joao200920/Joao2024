@@ -2,9 +2,10 @@
 body{
     background-image: linear-gradient(360deg, red, black);
     color: black;
-    font-size: 15pt;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: none
+
 }
 h1{
    color: white;
@@ -31,4 +32,47 @@ a{
     font-size: 30px;
     text-decoration: none;
 
+}
+
+p {
+    color: white;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+
+.impar{
+    color: white;
+    font-size: 10pt;
+    font-family: Arial;
+}
+
+.par {
+    color: orange;
+    font-size: 10pt;
+    font-family: Arial;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px 20px;
+}
+
+.cabeçalho{
+    text-align: center;
+    color: gray;
+}
+
+.logo{ 
+    display: flex;
+    width: 10px;
+}
+
+nav{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
 }
